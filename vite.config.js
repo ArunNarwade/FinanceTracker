@@ -3,10 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/FinanceTracker/"   // ⭐ MOST IMPORTANT LINE
-});
-
-
+  base: '/FinanceTracker/', // This MUST match your repository name exactly
+})
 
 
 // git add .
